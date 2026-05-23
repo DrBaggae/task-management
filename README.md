@@ -53,6 +53,74 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+
+# Task Management System
+
+A simple Task Management System built with Laravel as part of a technical assessment.
+
+## Features
+
+- User Authentication (Register, Login, Logout)
+- Create, Edit, and Delete Tasks
+- Task filtering by Status and Priority
+- Task search by title
+- Responsive UI with Tailwind CSS
+
+## Requirements
+
+- PHP 8.2+
+- Composer
+- Node.js & NPM
+- SQLite
+
+## Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/DrBaggae/task-management.git
+cd task-management
+```
+
+2. Install PHP dependencies
+```bash
+composer install
+```
+
+3. Install Node dependencies
+```bash
+npm install && npm run build
+```
+
+4. Copy environment file
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+5. Create the SQLite database
+```bash
+touch database/database.sqlite
+```
+
+6. Run migrations
+```bash
+php artisan migrate
+```
+
+7. Start the server
+```bash
+php artisan serve
+```
+
+8. Visit `http://localhost:8000` and register an account.
+
+## Built With
+
+- [Laravel](https://laravel.com)
+- [Laravel Breeze](https://github.com/laravel/breeze)
+- [Tailwind CSS](https://tailwindcss.com)
+- SQLite
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
