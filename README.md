@@ -56,7 +56,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 # Task Management System
 
-A simple Task Management System built with Laravel as part of a technical assessment.
+A Task Management System built with Laravel as part of a technical assessment.
 
 ## Features
 
@@ -64,6 +64,7 @@ A simple Task Management System built with Laravel as part of a technical assess
 - Create, Edit, and Delete Tasks
 - Task filtering by Status and Priority
 - Task search by title
+- Pagination
 - Responsive UI with Tailwind CSS
 
 ## Requirements
@@ -121,7 +122,3 @@ php artisan serve
 - [Tailwind CSS](https://tailwindcss.com)
 - SQLite
 - Arch Linux OS
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
