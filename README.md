@@ -120,6 +120,7 @@ php artisan serve
 - [Laravel Breeze](https://github.com/laravel/breeze)
 - [Tailwind CSS](https://tailwindcss.com)
 - SQLite
+- Arch Linux OS
 
 ## License
 
