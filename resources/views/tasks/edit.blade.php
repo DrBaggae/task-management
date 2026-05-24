@@ -44,7 +44,7 @@
 
                     <div class="mb-4">
                         <label class="block text-gray-700 mb-2">Due Date</label>
-                        <input type="date" name="due_date" value="{{ old('due_date', $task->due_date ? $task->due_date->format('Y-m-d') : '') }}" class="w-full border rounded px-3 py-2">
+                        <input type="date" name="due_date" value="{{ old('due_date', $task->due_date ? \Carbon\Carbon::parse($task->due_date)->format('Y-m-d') : '') }}">
                     </div>
 
                     <div class="flex gap-4">
